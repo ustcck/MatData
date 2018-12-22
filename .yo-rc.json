@@ -1,0 +1,36 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "cn.ustcdata.matdata",
+            "nativeLanguage": "zh-cn"
+        },
+        "jhipsterVersion": "5.7.2",
+        "applicationType": "monolith",
+        "baseName": "MatData",
+        "packageName": "cn.ustcdata.matdata",
+        "packageFolder": "cn/ustcdata/matdata",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "mysql",
+        "prodDatabaseType": "mysql",
+        "searchEngine": "elasticsearch",
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "gradle",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "NGRiMTFmMjFjNjc2MGI5ZmQxZTgyNTMxOTZlMWRmNmQ4YmU1NjRjYzg3ZWNkYmI0NjA0ZDcyYjg4ODFiM2EyNGZjMzNiZTAwZDE2NDM1OGEzNmMwNzNkYTI3YzRhMzQ3MzY3OTg2N2VhYmEzODk4NDdiY2E2NzI2ZTZkYzRiNzI=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": ["gatling", "protractor"],
+        "jhiPrefix": "jhi",
+        "otherModules": [],
+        "enableTranslation": true,
+        "nativeLanguage": "zh-cn",
+        "languages": ["zh-cn", "en"]
+    }
+}
