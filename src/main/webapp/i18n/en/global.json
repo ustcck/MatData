@@ -132,5 +132,5 @@
         "idexists": "A new {{ entityName }} cannot already have an ID",
         "idnull": "Invalid ID"
     },
-    "footer": "This is your footer"
+    "footer": "版权所有 皖ICP备18008323号"
 }

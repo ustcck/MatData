@@ -4,10 +4,13 @@ Main page styles
 
 .hipster {
     display: inline-block;
-    width: 347px;
-    height: 497px;
-    background: url('../../content/images/jhipster_family_member_2.svg') no-repeat center top;
+    //width: 347px;
+    //height: 497px;
+    width: 100%;
+    height: 100%;
+    background: url('../../content/images/logo.png') no-repeat center top;
     background-size: contain;
+    margin-top: 20px;
 }
 
 /* wait autoprefixer update to allow simple generation of high pixel density media query */
@@ -17,7 +20,37 @@ Main page styles
     only screen and (min-resolution: 192dpi),
     only screen and (min-resolution: 2dppx) {
     .hipster {
-        background: url('../../content/images/jhipster_family_member_2.svg') no-repeat center top;
+        background: url('../../content/images/logo.png') no-repeat center top;
         background-size: contain;
     }
+}
+
+.articles {
+    margin-top: 30px;
+}
+
+.display-4 {
+    margin-top: 30px;
+}
+
+.jh-article-list {
+    margin-top: 30px;
+    //margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.jh-article-list-details span {
+    color: #000000;
+}
+
+/*.jh-article-content {
+    margin-left: 30px;
+    font-size: 18px;
+}*/
+
+.jh-article-title a {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
 }

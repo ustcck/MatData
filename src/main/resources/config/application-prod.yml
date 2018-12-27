@@ -54,10 +54,18 @@ spring:
     liquibase:
         contexts: prod
     mail:
-        host: localhost
-        port: 25
-        username:
-        password:
+        host: smtp.qq.com
+            port: 465
+            username: 4438707@qq.com
+            password: bfqcvpaxqdokbiid
+            protocol: smtp
+            properties:
+                tls: false
+                auth: true
+                mail:
+                    smtp:
+                        ssl:
+                            enable: true
     thymeleaf:
         cache: true
 
@@ -115,8 +123,8 @@ jhipster:
                 token-validity-in-seconds: 86400
                 token-validity-in-seconds-for-remember-me: 2592000
     mail: # specific JHipster mail property, for standard properties see MailProperties
-        from: MatData@localhost
-        base-url: http://my-server-url-to-change # Modify according to your server's URL
+        from: 4438707@qq.com
+        base-url: http://www.ustcdata.cn # Modify according to your server's URL
     metrics: # DropWizard Metrics configuration, used by MetricsConfiguration
         jmx:
             enabled: true
