@@ -38,6 +38,7 @@ public class CacheConfiguration {
             cm.createCache(cn.ustcdata.matdata.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(cn.ustcdata.matdata.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(cn.ustcdata.matdata.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(cn.ustcdata.matdata.domain.Order.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
